@@ -1,18 +1,18 @@
-# Smiley Buttons
+# Smiley Knoppen
 
-## Step 1
+## Stap 1
 
-Place a ``||input:on button pressed||`` block to run code when button **A** is pressed.
+Plaats een ``||input:on button pressed||`` blok om code uit te voeren wanneer knop **A** wordt ingedrukt.
 
 ```blocks
 input.onButtonPressed(Button.A, () => { 
 });
 ```
 
-## Step 2
+## Stap 2
 
-Place a ``||basic:show leds||`` block inside ``||input:on button pressed||``
-to display a smiley on the screen.
+Plaats een ``||basic:show leds||`` blok binnen ``||input:on button pressed||``
+om een smiley op het scherm te laten zien.
 
 ```blocks
 input.onButtonPressed(Button.A, () => { 
@@ -26,14 +26,14 @@ input.onButtonPressed(Button.A, () => {
 });
 ```
 
-## Step 3
+## Stap 3
 
-Click ``|Download|`` to transfer your code in your @boardname@ and try pressing button **A**.
+Klik ``|Download|`` om je code naar je @boardname@ te sturen druk op **A**.
 
-## Step 4
+## Stap 5
 
-Add ``||input:on button pressed||`` and ``||basic:show leds||`` blocks to
-display a frowney when button **B** is pressed.
+Voeg ``||input:on button pressed||`` en ``||basic:show leds||`` blokken toe om
+een verdrietige smiley te laten zien wanneer **B** ingedrukt wordt.
 
 ```blocks
 input.onButtonPressed(Button.B, () => { 
@@ -47,14 +47,14 @@ input.onButtonPressed(Button.B, () => {
 });
 ```
 
-## Step 5
+## Stap 5
 
-Click ``|Download|`` to transfer your code in your @boardname@ and try pressing button A or B.
+Klik ``|Download|`` om je code naar je @boardname@ sturen probeer de knoppen **A** en **B**.
 
-## Step 6
+## Stap 6
 
-Add a secret mode where ``A`` and ``B`` are pressed together. 
-In that case, add multiple ``||basic:show leds||`` blocks to create an animation...
+Voeg een geheime modus toe wanneer ``A`` and ``B`` tegelijk worden ingedrukt. 
+Voeg meerdere ``||basic:show leds||`` blokken toe om een animatie te creëren.
 
 ```blocks
 input.onButtonPressed(Button.AB, () => {
@@ -75,8 +75,6 @@ input.onButtonPressed(Button.AB, () => {
 })
 ```
 
-## Step 7
+## Stap 7
 
-Click ``|Download|`` to transfer your code in your @boardname@ 
-and show it off to your friends!
-
+Klik op ``|Download|`` om je code naar je @boardname@ te sturen.
